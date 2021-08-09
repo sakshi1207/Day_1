@@ -8,8 +8,14 @@
 </head>
 <body>
     <script>
-        let tv={Size:50,Brand:"Samsung",Cost:50000,Material:"Plastic"}
-        console.log(tv.Brand);
+        let tv={Size:50,Brand:"Samsung",Cost:50000,Material:"Plastic",
+        
+
+        fullname: function(){
+            return this.Brand +" oled "+ this.Size;
+        }
+    };
+        console.log(tv.fullname());
     </script>
 </body>
 </html>
